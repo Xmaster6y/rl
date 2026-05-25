@@ -1,36 +1,135 @@
 {
-  "last_updated": "2026-05-25T07:14:54.964938+00:00",
+  "last_updated": "2026-05-25T18:30:01.526275+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
-      "runs_with_data": 6,
-      "total_workflow_runs": 72,
-      "total_success": 54,
-      "total_failure": 2,
+      "runs_with_data": 7,
+      "total_workflow_runs": 84,
+      "total_success": 63,
+      "total_failure": 3,
       "success_rate": 75.0
     },
     "last_30_days": {
       "days": 30,
-      "runs_with_data": 29,
-      "total_workflow_runs": 354,
-      "total_success": 213,
-      "total_failure": 38,
-      "success_rate": 60.2
+      "runs_with_data": 30,
+      "total_workflow_runs": 366,
+      "total_success": 222,
+      "total_failure": 39,
+      "success_rate": 60.7
     }
   },
   "history": [
     {
       "date": "2026-05-25",
-      "orchestrator_ran": false,
-      "orchestrator_status": "not_run",
-      "orchestrator_url": null,
-      "workflows": {},
+      "orchestrator_ran": true,
+      "orchestrator_status": "queued",
+      "orchestrator_url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529",
+      "orchestrator_run_id": 26389487529,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675535416",
+          "display_name": "Linux Tests"
+        },
+        "test-linux-llm.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675535519",
+          "display_name": "LLM Tests"
+        },
+        "test-linux-habitat.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675535469",
+          "display_name": "Habitat Tests"
+        },
+        "test-linux-tutorials.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675535084",
+          "display_name": "Tutorials Tests"
+        },
+        "test-linux-sota.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675534899",
+          "display_name": "SOTA Tests"
+        },
+        "test-linux-libs.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675534883",
+          "display_name": "Libs Tests"
+        },
+        "test-windows-optdepts.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675535413",
+          "display_name": "Windows Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675535037",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675535353",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675534760",
+          "display_name": "Benchmarks"
+        },
+        "validate-test-partitioning.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675534587",
+          "display_name": "Test Partitioning"
+        },
+        "nightly_build.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675534962",
+          "display_name": "Nightly Build"
+        },
+        "build-wheels-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675534935",
+          "display_name": "Wheels (Linux)"
+        },
+        "build-wheels-m1.yml": {
+          "status": "failure",
+          "conclusion": "failure",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675535009",
+          "display_name": "Wheels (M1)"
+        },
+        "build-wheels-windows.yml": {
+          "status": "cancelled",
+          "conclusion": "cancelled",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675535006",
+          "display_name": "Wheels (Windows)"
+        },
+        "build-wheels-aarch64-linux.yml": {
+          "status": "cancelled",
+          "conclusion": "cancelled",
+          "url": "https://github.com/Xmaster6y/rl/actions/runs/26389487529/job/77675534916",
+          "display_name": "Wheels (Aarch64)"
+        }
+      },
       "summary": {
-        "total": 0,
-        "success": 0,
-        "failure": 0,
-        "skipped": 0,
-        "success_rate": null
+        "total": 16,
+        "success": 9,
+        "failure": 1,
+        "skipped": 4,
+        "other": 2,
+        "success_rate": 75.0
       }
     },
     {
