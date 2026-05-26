@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-26T07:22:36.827003+00:00",
+  "last_updated": "2026-05-26T18:45:38.632719+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-05-26",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/Xmaster6y/rl/actions/runs/26438319479",
       "orchestrator_run_id": 26438319479,
       "workflows": {
