@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-08-06T08:39:38.962313+00:00",
+  "last_updated": "2026-08-06T23:48:54.602714+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
       "runs_with_data": 7,
       "total_workflow_runs": 84,
-      "total_success": 64,
-      "total_failure": 3,
-      "success_rate": 76.2
+      "total_success": 63,
+      "total_failure": 5,
+      "success_rate": 75.0
     },
     "last_30_days": {
       "days": 30,
       "runs_with_data": 30,
       "total_workflow_runs": 361,
-      "total_success": 263,
-      "total_failure": 14,
-      "success_rate": 72.9
+      "total_success": 262,
+      "total_failure": 16,
+      "success_rate": 72.6
     }
   },
   "history": [
     {
       "date": "2026-08-06",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/Xmaster6y/rl/actions/runs/31085766207",
       "orchestrator_run_id": 31085766207,
       "workflows": {
@@ -105,8 +105,8 @@
           "display_name": "Wheels (Linux)"
         },
         "build-wheels-m1.yml": {
-          "status": "success",
-          "conclusion": "success",
+          "status": "failure",
+          "conclusion": "failure",
           "url": "https://github.com/Xmaster6y/rl/actions/runs/31085766207/job/92564736580",
           "display_name": "Wheels (M1)"
         },
@@ -117,19 +117,19 @@
           "display_name": "Wheels (Windows)"
         },
         "build-wheels-aarch64-linux.yml": {
-          "status": "in_progress",
-          "conclusion": null,
+          "status": "failure",
+          "conclusion": "failure",
           "url": "https://github.com/Xmaster6y/rl/actions/runs/31085766207/job/92564736730",
           "display_name": "Wheels (Aarch64)"
         }
       },
       "summary": {
         "total": 16,
-        "success": 10,
-        "failure": 0,
+        "success": 9,
+        "failure": 2,
         "skipped": 4,
-        "other": 2,
-        "success_rate": 83.3
+        "other": 1,
+        "success_rate": 75.0
       }
     },
     {
