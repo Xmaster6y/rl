@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-08-19T06:47:00.147365+00:00",
+  "last_updated": "2026-08-19T18:18:11.433147+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
       "runs_with_data": 7,
       "total_workflow_runs": 84,
-      "total_success": 64,
-      "total_failure": 3,
-      "success_rate": 76.2
+      "total_success": 63,
+      "total_failure": 4,
+      "success_rate": 75.0
     },
     "last_30_days": {
       "days": 30,
       "runs_with_data": 30,
       "total_workflow_runs": 361,
-      "total_success": 263,
-      "total_failure": 15,
-      "success_rate": 72.9
+      "total_success": 262,
+      "total_failure": 16,
+      "success_rate": 72.6
     }
   },
   "history": [
     {
       "date": "2026-08-19",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/Xmaster6y/rl/actions/runs/32224847658",
       "orchestrator_run_id": 32224847658,
       "workflows": {
@@ -105,14 +105,14 @@
           "display_name": "Wheels (Linux)"
         },
         "build-wheels-m1.yml": {
-          "status": "success",
-          "conclusion": "success",
+          "status": "cancelled",
+          "conclusion": "cancelled",
           "url": "https://github.com/Xmaster6y/rl/actions/runs/32224847658/job/95982386833",
           "display_name": "Wheels (M1)"
         },
         "build-wheels-windows.yml": {
-          "status": "in_progress",
-          "conclusion": null,
+          "status": "failure",
+          "conclusion": "failure",
           "url": "https://github.com/Xmaster6y/rl/actions/runs/32224847658/job/95982386991",
           "display_name": "Wheels (Windows)"
         },
@@ -125,11 +125,11 @@
       },
       "summary": {
         "total": 16,
-        "success": 10,
-        "failure": 0,
+        "success": 9,
+        "failure": 1,
         "skipped": 4,
         "other": 2,
-        "success_rate": 83.3
+        "success_rate": 75.0
       }
     },
     {
